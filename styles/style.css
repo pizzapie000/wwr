@@ -9,6 +9,23 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+#events-msg {
+    text-align: center;
+}
+#events-msg h4 {
+    font-size: 30px;
+    color: #f7fff7;
+}
+#events-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#events-grid t1 {
+    grid-column: 2/3;
+    grid-row: 3/4
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -122,9 +139,9 @@ nav a:hover {
     color: #f7fff7;
 }
 .home-title {
-    color: #343434;
+    color: #f7fff7;
     font-family: "Montserrat", Arial, sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 10px;
 }
 h4 {
@@ -205,6 +222,8 @@ footer .social img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
